@@ -1,0 +1,16 @@
+body.background{
+  background-color: rgb(232, 235, 235);
+}
+  p.a{
+    word-spacing: 50px;
+  }
+  p.center{
+     
+      text-align: center;
+  
+  }
+  
+ 
+  div.a{
+    background-color: rgb(255, 255, 255);
+  }
