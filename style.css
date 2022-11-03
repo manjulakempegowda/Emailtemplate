@@ -1,16 +1,39 @@
-body.background{
+.background
+  {
   background-color: rgb(232, 235, 235);
-}
-  p.a{
-    word-spacing: 50px;
   }
-  p.center{
-     
-      text-align: center;
-  
+
+.col1
+  {
+  margin-top: 30px;
   }
-  
+  .col1-a
+  {
+  margin-top: 20px;
+  }
+  .label
+  {
+  margin-top: 7px;
+  }
+  .col2
+  {
+  margin-top: 5px;
+  }
  
-  div.a{
-    background-color: rgb(255, 255, 255);
+
+  .email-icons 
+  {
+    display: flex;
+    justify-content:flex-end;
+    align-self:flex-end;
   }
+  .col3
+  {
+   background-color: rgb(245, 245, 245);
+  }
+.text
+{
+  flex-wrap: nowrap;
+}
+ 
+

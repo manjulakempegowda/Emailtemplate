@@ -7,124 +7,141 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel= "stylesheet" href= "style.css">
-    <title>Email Template bootstrap</title>
+    <title>Email Template Bootstrap</title>
   </head>
   <body class="background">
-    <h1>Hello, Rohan!</h1>
-
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2 ">
-        <div>
-          <button type="button" class="btn btn-warning">Compose</button>
-        </div>
-        <!--Mail button-->
-         <div>
-          <ul class="list-group">
-            <li class="list-group-item active" aria-current="true">Inbox
-              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              10+
-              <span class="visually-hidden">unread messages</span>
-            </li>
-              <li class="list-group-item">Important</li>
-              <li class="list-group-item">Sent</li>
-              <li class="list-group-item">Spam</li>
-              <li class="list-group-item">Trash</li>
-              <li class="list-group-item">Drafts</li>
-              <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </ul>
-          </ul>
-          <div>
+    <h3>Welcome, Rohan!</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 ">
+            <div>
+              <button type="button" class="btn btn-warning">Compose</button>
+            <!---------------------------------------------Mail buttons----------------------------------------------------------->
+            <div class="col1">
+              <ul class="list-group">
+                <li class="list-group-item active" aria-current="true"><h6>Inbox (10)</h6></li>
+                <li class="list-group-item">Important</li>
+                <li class="list-group-item">Sent</li>
+                <li class="list-group-item">Spam</li>
+                <li class="list-group-item">Trash</li>
+                <li class="list-group-item">Drafts</li>
+              <div class="col1-a">
+                  <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">More</button>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+               </ul>
+              </div>
+             </ul>
+          </div>
+          <div class="label">
             <p class ="a">Labels +</p>
           </div>
          </div>
         </div>
-        <!--Column 2-->
-        <div class="col-md-6">
+        <!----------------------------------------------Column 2------------------------------------------------------------------>
+        <div class="col-md-4">
             <!--Search engine-->
             <div class="container-fluid">
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button type="button" class="btn btn-primary button-mg"><i class="bi bi-search"></i></button>
               </form>
             </div>
             <!--List for Inbox-->
             <div class="list-group">
-              <h5 class="mb-1">Today</h5>
-              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              <h5 class="label">Today</h5>
+              <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Saanvi Aravind</h5>
+                 <!-- <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                   <h5>Saanvi Aravind</h5>
                   <small>5.00 PM</small>
                 </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small>And some small print.</small>
+                  <p>Some placeholder content in a paragraph.</p>
+                  <small>And some small print.</small>
               </a>
+              <div class="col2">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                  <!--<input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                  <h5>Bay Valley Tech</h5>
+                  <small>3.00 PM</small>
+                </div>
+                  <p>Some placeholder content in a paragraph.</p>
+                  <small>And some muted small print.</small>
+              </a>
+              </div>
+              <div class="col2">
+              <h5 class="label">Yesterday</h5>
               <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Bay Valley Tech</h5>
-                  <small class="text-muted">3.00 PM</small>
+                  <!--<input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                  <h5>Neil Hafley</h5>
+                  <small>1.00 PM</small>
                 </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
+                  <p >Some placeholder content in a paragraph.</p>
+                  <small>And some muted small print.</small>
               </a>
-              <h5 class="mb-1">Yesterday</h5>
+              </div>
+              <div class="col2">
               <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Neil Hafley</h5>
-                  <small class="text-muted">1.00 PM</small>
+                 <!-- <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                  <h5>Saanvi Aravind</h5>
+                  <small>3.00 PM</small>
                 </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
+                  <p >Some placeholder content in a paragraph.</p>
+                  <small>And some muted small print.</small>
               </a>
+              </div>
+              <div class="col2">
+              <h5 class="label">Last week</h5>
               <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Saanvi Aravind</h5>
-                  <small class="text-muted">3.00 PM</small>
+                  <!--<input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                  <h5>Neil Hafley</h5>
+                  <small>1.00 PM</small>
                 </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-              </a>
-              <h5 class="mb-1">Last week</h5>
+                  <p>Some placeholder content in a paragraph.</p>
+                  <small>And some muted small print.</small>
+              </a
+              ></div>
+              <div class="col2">
               <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Neil Hafley</h5>
-                  <small class="text-muted">1.00 PM</small>
+                  <!--<input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">-->
+                  <h5>Saanvi Aravind</h5>
+                  <small>3.00 PM</small>
                 </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
+                  <p>Some placeholder content in a paragraph.</p>
+                  <small>And some muted small print.</small>
               </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <h5 class="mb-1">Saanvi Aravind</h5>
-                  <small class="text-muted">3.00 PM</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-              </a>
+              </div>
             </div>
         </div>
-        <!--Column 3-->
-        <div class= "a col-md-4">
-          <p class="center">No conservation selected</p>
-        </div>
+        <!---------------------------------------------Column 3------------------------------------------------------------->
+        <div class= "col3 a col-md-6 ">
+          <div class="email-icons">
+            <i class="bi bi-trash3-fill"></i>
+            <i class="bi bi-reply-fill"></i>
+            <i class="bi bi-paperclip"></i>
+            <i class="bi bi-three-dots"></i>
+           
+          </div>
+           <p>To: rohanaravind@gmail.com</p>
+            <p>From: saanviaravind@gmail.com</p>
+            <h5>Hi Rohan!</h5>
+               <p class="text">"No one is too much busy. It's all about importance vou have in their life."</p>
+               <p>“Trust goes out from the same door, from which the doubt comes in.”</p>
+               <p>Some placeholder content in a paragraph.</p>
+            <div>
+                <textarea class="form-control"  rows="8">Type here to reply........</textarea>
+            </div>
       </div>
-    </div>
+    </div>git
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
